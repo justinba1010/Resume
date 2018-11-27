@@ -1,0 +1,198 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+\usepackage[super]{nth}
+
+
+% Increase text height
+\textheight=700pt
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{Justin Baum}
+
+% Note that addresses can be used for other contact information:
+% -phone numbers
+% -email addresses
+% -linked-in profile
+
+\address{800 Alexander Road\\G-126-B\\Columbia, SC, 29033}
+\address{201-625-3040\\justin.baum@ninefx.com\\www.github.com/justinba1010}
+
+% Uncomment to add a third address
+%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{EDUCATION}
+\textbf{University of South Carolina}, Columbia, SC\\
+{\sl Bachelor's of Science}, Computer Science and Mathematics, May 2021\hfill GPA: 
+3.95\\
+Mathematics GPA: 4.0\hfill Computer Science GPA: 4.0\\\\
+\textbf{Northern Valley Regional High School}, Old Tappan NJ\\
+ September 2013 - June 2017\hfill GPA: 3.60\\
+ Varsity Basketball, Chess Club, Investment Club
+%\\
+%{\sl Bachelor of Science}, Computer Science and Engineering, June 2014\hfill 
+%GPA: 3.47
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%-------------------------------------------------------------------------------
+%\section{PROJECTS}
+%\par
+%\textbf{Project One}: 
+%Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper 
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{SKILLS}
+
+\textbf{Languages and Tools}: Java, Erlang, ReasonML, Python, \LaTeX, PHP, C, C++, Assembly, HTML, CSS, Javascript, Vi/Vim, Git, Virtualbox, CircleCI, Docker.
+\\
+%\textbf{Applications}: 
+%\textbf{Operating Systems}: 
+%Unix, Linux, FreeBSD, Mac OSX, Windows, Android.
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
+% Modify the format of each position
+\begin{format}
+\title{l}\employer{r}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+
+\section{EXPERIENCE}
+
+\employer{NineFX Inc.}
+\location{Columbia, SC}
+\dates{August 2018 - Present}
+\title{\textbf{Software Engineer Intern}}
+\begin{position}
+$\bullet$ Make contributions to both open source and private projects.\\
+$\bullet$ Work with a team of developers following Agile Methodology.\\
+$\bullet$ Specialize in Erlang and ReasonML development.
+\end{position}
+
+\employer{Pen Education}
+\location{Old Tappan, NJ}
+\dates{May 2018 - August 2018}
+\title{\textbf{Computer Science Instructor}}
+\begin{position}
+$\bullet$ Create and lead lesson plans for a few students to learn Computer Science.\\
+$\bullet$ Curriculum taught the ins and outs of Java and Python, as well as some talk about P vs. NP and security.
+\end{position}
+
+\employer{University of South Carolina}
+\location{Columbia, SC}
+\dates{January 2018 - May 2018}
+\title{\textbf{Supplemental Instructor - Calculus 2}}
+\begin{position}
+$\bullet$ Communicate with professors to build lesson plans that built on class time.\\
+$\bullet$ Lead instruction sessions that were founded on the ideologies of the Student Success Center.
+\end{position}
+
+\employer{CMEK Allstars Inc.}
+\location{Tenafly, NJ}
+\dates{January 2016 - August 2017}
+\title{\textbf{Assistant Coach and Counselor}}
+\begin{position}
+$\bullet$ Made sure we followed procedure and maintained safety at all times.\\
+$\bullet$ Coached young teams in 2nd-4th grade recreational games.
+\end{position}
+
+%-------------------------------------------------------------------------------
+%	Honors
+%-------------------------------------------------------------------------------
+\section{HONORS \&\\AWARDS}
+2018 ACM Intercollegiate Programming Challenge Regional Charleston \nth{2} Place\\
+2017 ACM Intercollegiate Programming Challenge Regional Charleston \nth{3} Place
+%-------------------------------------------------------------------------------
+%	Projects
+%-------------------------------------------------------------------------------
+\section{PROJECTS}
+%-------------------------------------------------------------------------------
+%	Projects
+%-------------------------------------------------------------------------------
+\employer{Spare Time Project}
+\location{}
+\dates{March 2018 - June 2018}
+\title{\textbf{Graph Theory Library}}
+\begin{position}
+$\bullet$ Wrote data structures and algorithms trying to solve problems such as graph coloring, path-finding, and cartesian product for graphs.
+\end{position}
+
+\employer{Senior Year Capstone}
+\location{Northern Valley Old Tappan}
+\dates{January 2017 - June 2017}
+\title{\textbf{Minimax Game Engine}}
+\begin{position}
+$\bullet$ Learned the basics to game theory, and artificial intelligence.\\
+$\bullet$ Wrote a program based on the Minimax Algorithm that could play a multitude of games like Chess.
+\end{position}
+
+\section{INTERESTS}
+Graph Theory, Cybersecurity, Complexity Theory, Functional Programming
+%-------------------------------------------------------------------------------
+\end{resume}
+\end{document}
